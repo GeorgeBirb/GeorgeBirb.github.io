@@ -1,0 +1,72 @@
+/* General styles for the body and container */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the grid container for a 4-column layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns of equal width */
+    gap: 20px; /* Space between items */
+}
+
+/* Styling each grid item */
+.pdf-item {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Styling the links and nested list */
+.pdf-link {
+    display: block;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.pdf-link:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the arrow icon */
+.arrow-icon {
+    float: right;
+    transition: transform 0.3s;
+}
+
+/* Style for nested list (initially hidden) */
+.nested-list {
+    list-style-type: none;
+    padding-left: 20px; /* Indent the nested list */
+    display: none; /* Hidden by default */
+    margin-top: 10px;
+}
+
+.nested-list li a {
+    display: block;
+    padding: 10px;
+    background-color: #f8f9fa;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.nested-list li a:hover {
+    background-color: #ddd;
+}

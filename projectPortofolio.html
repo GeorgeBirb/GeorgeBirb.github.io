@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Resources</title>
+    <link rel="stylesheet" href="stylesForPortofolio.css">
+</head>
+<body>
+<div class="container">
+    <h1>My Project Portfolio</h1>
+
+    <!-- Main grid container -->
+    <div class="grid-container">
+        <div class="pdf-item">
+            <a href="#" class="pdf-link" onclick="toggleNestedList(event)">
+                Front-end Development
+                <span class="arrow-icon">▼</span>
+            </a>
+            <ul class="nested-list">
+                <li>
+                    <a href="https://github.com/georgiosbirmpakos/Employee-Management-System/tree/main/employee-management-system/employee-system-api-ui">
+                        React with Tailwind (Employees Management Project)
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="pdf-item">
+            <a href="#" class="pdf-link" onclick="toggleNestedList(event)">
+                Back-end Development
+                <span class="arrow-icon">▼</span>
+            </a>
+            <ul class="nested-list">
+                <li>
+                    <a href="https://github.com/georgiosbirmpakos/Employee-Management-System/tree/main/employee-management-system/employee-system-api">
+                        Spring Boot (Employees Management Project)</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Java section -->
+        <div class="pdf-item">
+            <a href="#" class="pdf-link" onclick="toggleNestedList(event)">
+                DB - ORM - Data
+                <span class="arrow-icon">▼</span>
+            </a>
+            <ul class="nested-list">
+            </ul>
+        </div>
+
+        <div class="pdf-item">
+            <a href="#" class="pdf-link" onclick="toggleNestedList(event)">
+                Java
+                <span class="arrow-icon">▼</span>
+            </a>
+            <ul class="nested-list">
+            </ul>
+        </div>
+
+
+    </div>
+</div>
+
+<!-- JavaScript to toggle display -->
+<script src="script.js"></script>
+</body>
+</html>
